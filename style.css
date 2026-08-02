@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+* { padding:0px;
+    border:0px;
+    box-sizing: border-box; 
+    margin:0px;
+}
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;/*aqui faz com que os elementos sejam distribuídos com espaço iguais automaticamente*/ 
+    color:rgba(95, 67, 34, 0.984);
+}
+
+.cabecalho-titulo-logo {
+    display: flex;
+    align-items: center;
+    font-family: 'Playfair Display';
+    font-size: 25px;
+    gap: 10px;
+    padding-left:50px;
+}
+.cabecalho-titulo-logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 20%;
+}
+.cabecalho-menu {
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho-menu nav {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-family: 'Lato' sans-serif; /*caso não carregar para o usuário a fonte Lato será substituida pela padrão sans-serif*/
+    font-size: 18px;
+}
+
+.cabecalho-botao {
+    display: flex;
+    color: rgba(95, 67, 34, 0.984);
+    font-family: 'Lato';
+    gap: 30px;
+
+}
+/*Links do Menu: Alvo direto na tag 'a' para anular a cor azul padrão do navegador*/
+.cabecalho-menu a {
+    text-decoration: none; /*isso tira a cor padrão e o risco abaixo da palavra*/
+    color:rgba(95, 67, 34, 0.984);
+}
+/*Botões do Cabeçalho: Alvo direto na tag 'button' para mudar a cor do texto e remover o fundo cinza padrão*/
+.cabecalho-botao button{
+    background: none; /*isso tira a cor padrão do fundo do botão*/
+    color: white;
+    background-color:rgba(95, 67, 34, 0.984);
+    height: 30px;
+    width: 90px;
+    border-radius: 5px;
+}
+.imagem-principal {
+    position: relative;
+    width: 100%;
+}
+.imagem-principal img {
+    width: 100%;
+    height: 600px;
+    object-fit : cover; /*para que a imagem cubra todo o espaço disponível sem distorcer a proporção*/
+    position:relative;
+}
+.titulos-principais {
+    display: flex;
+    font-family: 'Playfair Display';
+    font-size: 30px;
+    color: white;
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+.button-principal {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    top: 70%;
+}
+
+.button1 {
+    background: none; /*isso tira a cor padrão do fundo do botão*/
+    color: white;
+    background-color:brown;
+    font-size: 20px;
+    border-radius: 5px;
+    height: 40px;
+    width: 150px;
+    font-family: 'Lato', sans-serif;
+}
+.button2 {
+    background: none; /*isso tira a cor padrão do fundo do botão*/
+    color: black;
+    background-color:white;
+    font-size: 20px;
+    border-radius: 5px;
+    height: 40px;
+    width: 150px;
+    font-family: 'Lato', sans-serif;
+}
+/*------------------------------------------------------*/
+
+.cards-coffee1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    justify-content: space-around;
+}
+.conteudo-secundario h3 {
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+    font-family: 'Playfair Display';
+    justify-content: center;
+}
+.conteudo-secundario p {
+    display: flex;
+    gap: 10px;
+    font-family: 'Lato', sans-serif;
+    justify-content: center;
+}
+
+.conteudo-secundario img {
+    display: flex;
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    
+}
+/*-------------------------------------------------------*/
+.cards-coffee2 {
+    display: flex;
+    flex-direction: column;
+    
+}
+.segunda-sessao-titulo {
+
+}
+.segunda-sessao-titulo h2 {
+
+}
+.segunda-sessao-titulo h4 {
+
+}
+.segunda-sessao-titulo img {}

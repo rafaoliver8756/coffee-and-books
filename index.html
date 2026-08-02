@@ -3,58 +3,169 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coffe & Books</title>
+    <title>Coffee & Books</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
    <header>
-    <img src="" alt="Logo do café">
-    <h1>Coffe & Books</h1>
-    <nav>
+            <div class="cabecalho">
+        <div class="cabecalho-titulo-logo">
+    <img src="fotos/logo.jpeg" alt="Logo da loja">
+    <h1>Coffee & Books</h1>
+                </div>
+    <div class="cabecalho-menu">
+    <nav> 
         <a href="#">Home</a>
         <a href="#">Café Menu</a>
         <a href="#">Library</a>
         <a href="#">Events</a>
         <a href="#">Contact</a>
     </nav>
-    <button>Log in</button>
-    <button> Order Online</button>
+        </div>
+        <div class="cabecalho-botao">
+    <button class="button1">  Log in</button>
+    <button class="button2">  Order Online</button>
+        </div>
+            </div>
 </header> 
 <main> <!---conteúdo principal-->
     <!---primeira seção-->
     <section>
-        <img src="" alt=""> <!---colocar imagem ainda-->
-        <h2>Welcome to</h2>
-        <h1>Coffe & Books</h1>
-        <p>A Cozy Café & Library for Coffe Lovers and Bookworms.</p>
-        <button>Explore Menu</button>
-        <button>Browse Library</button>
-    </section>
+        <div class="imagem-principal">
+            <img src="fotos/fundo.jpeg" alt="Fundo da página, mostrando uma loja de café e livros"> 
+            <div class="titulos-principais">
 
+            <h3>Welcome to</h3>
+            <h2>Coffe & Books</h2>
+            <p>A Cozy Café & Library for Coffe Lovers and Bookworms.</p>
+        
+            <div class="button-principal"> 
+            <button class="button1">Explore Menu</button>
+            <button class="button2">Browse Library</button>
+        </div>
+            </div>
+            </div>
+    </section>
     <!---segunda seção-->
-    <section>
-        <img src="" alt=""> <!---colocar imagem ainda-->
-        <h3>Delicious Coffee</h3>
-        <p>Crafted with the finest beans and care</p>
+    <section class="cards-coffee1"> 
+        <article> 
+                <div class="conteudo-secundario"> 
+            <img src="fotos/cappuccino.jpeg" alt="Foto de um Cappucino"> 
+            <h3>Delicious Coffee</h3>
+            <p>Crafted with the finest beans and care</p>
+                </div>
+        </article>
 
-        <img src="" alt=""> <!---colocar imagem ainda-->
-        <h3>Read & Relax</h3>
-        <p>Find your next great read and unwind.</p>
+        <article>
+                <div class="conteudo-secundario">
+            <img src="fotos/colecao.jpeg" alt="Foto de uma coleção de livros"> 
+            <h3>Read & Relax</h3>
+            <p>Find your next great read and unwind.</p>
+                </div>
+        </article>
 
-        <img src="" alt=""> <!---colocar imagem ainda-->
-        <h3>Events & Book Clubs</h3>
-        <p>Join our community of readers and events.</p>
+        <article> 
+                <div class="conteudo-secundario">
+            <img src="fotos/club book.jpeg" alt="Foto de um clube de livros"> 
+            <h3>Events & Book Clubs</h3>
+            <p>Join our community of readers and events.</p>
+                </div>
+        </article>
     </section>
-
     <!---terceira seção-->
+    <section class="cards-coffee2"> 
+        <article>
+                <div class="segunda-sessao-titulo"> 
+            <h2>Our Favorites</h2>
+            <h4>Enjoy Our Specialties</h4> 
+                </div>
+        </article>
+    
+    
+        <article>
+                <div class="segunda-sessao-titulo">
+            <img src="fotos/cappuccino.jpeg" alt="Foto de um Cappucino">
+            <p>Cappuccino</p>
+                </div>
+        </article>
+
+        <article>
+                <div class="segunda-sessao-titulo">
+            <img src="fotos/iced latte.jpeg" alt="Foto de um Iced Latte">
+            <p>Iced Latte</p>
+                </div>
+        </article>
+
+        <article>
+                <div class="segunda-sessao-titulo">
+            <img src="fotos/espreso.jpeg" alt="Foto de um Espresso">
+            <p>Espresso</p>
+                </div>
+        </article>
+
+        <h4>Staff Picks</h4>
+        <article>
+                <div class="segunda-sessao-titulo">
+            <img src="fotos/bestsellers.jpeg" alt="muitos livros empilhados">
+            <p>Besrsellers</p>
+                </div>
+        </article>
+
+        <article>
+                <div class="segunda-sessao-titulo">
+            <img src="fotos/newarrivals.jpeg" alt="livros juntos em uma prateleira">
+            <p>new Arrivals</p>
+                </div>
+        </article>
+
+        <article>
+                <div class="segunda-sessao-titulo"> 
+            <img src="fotos/bookosthemonth.jpeg" alt="livro aberto com uma xícara de café ao lado">
+            <p>Book of the Month</p>
+            </div>
+        </article>
+    </section>  
+
+    <!---quarta seção-->
     <section>
-        <h2>Our Favorites</h2>
-        <h4>Enjoy Our Specialties</h4>
-            <article>
-                
-            </article>
+        <article>
+            <img src="fotos/cafe contact.png" alt="Foto de um café"> <!---imagem do café-->
+            <h2>Visit Us & Get in Touch</h2>
+            <img src="" alt="">
+            <p> 123 Book Lane, São Paulo, SP</p>
+            <img src="" alt="">
+            <p>Mon - Fri: 8:00 AM - 9:00 PM</p>
+            <p>Sat - Sun: 9:00 AM - 7:00 PM</p>
+            <img src="" alt="">
+            <p>+59 11 98755 4321 | contact@doffeeandbooks.com</p>
+        </article>
+
+            <h2>Contact Us</h2>
+        <article>
+            <form action="" method="post">
+                Name: <input id="nome" type="text"/><br>
+                Email: <input id="email" type="email"/><br>
+                message: <input id="Menssagem" type="text"/><br>
+                <button>Send</button>
+            </form>
+        </article>
     </section>
 
+    <!---rodapé-->
+    <footer>
+        <a href="#">About</a>
+        <a href="#">Library</a>
+        <a href="#">Blog</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+
+    </footer>
 </main>
 </body>
 </html>
